@@ -6,13 +6,16 @@ using MVPTarea.Modelo;
 namespace MVPTarea.Presentador
 {
     public class RectanguloPresentador
-    {
-        IRectangulo rectanguloVista;
+    { 
+
+        IRectangulo 
+        rectanguloVista;
+        //metodo donde de vista
         public RectanguloPresentador(IRectangulo vista)
         {
             rectanguloVista = vista;
         }
-
+        //metodo donde se calcula el area
         public void CalcularArea()
         {
             Rectangulo rectangulo = new Rectangulo();

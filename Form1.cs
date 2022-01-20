@@ -10,14 +10,17 @@ using System.Windows.Forms;
 using MVPTarea.Vista;
 using MVPTarea.Presentador;
 namespace MVPTarea
-{
+{ 
     public partial class Form1 : Form,IRectangulo
     {
+        // metodo del form
         public Form1()
         {
             InitializeComponent();
         }
 
+
+        //metodo donde estan las propiedades del largo
         public string LengthText
         {
             get
@@ -30,6 +33,8 @@ namespace MVPTarea
 
                 textLength.Text = value;
             }
+
+         // metodo donde estaan las propiedades del ancho
         }
         public string BreadthText
         {
@@ -44,7 +49,7 @@ namespace MVPTarea
             {
                 textBreadth.Text= value;
             }
-
+        //metodo donde estan las propiedades del area
         }
         public string AreaText
         {
@@ -59,6 +64,8 @@ namespace MVPTarea
 
                 lblArea.Text = value;
             }
+
+            //botones del forms 
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -72,6 +79,11 @@ namespace MVPTarea
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

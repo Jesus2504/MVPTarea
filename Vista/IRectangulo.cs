@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MVPTarea.Vista
 {
-   
+   //metodo donde esta la iteface del largo, ancho y area
         public interface IRectangulo
         {
             string LengthText { get; set; }

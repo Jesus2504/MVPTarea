@@ -11,7 +11,7 @@ namespace MVPTarea.Modelo
 
         public double CalcularArea()
         {
-            return Length = Breadth;
+            return Length * Breadth;
         }
     }
 }
